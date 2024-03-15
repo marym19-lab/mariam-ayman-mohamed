@@ -1,0 +1,121 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(214, 186, 232)  ;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+nav{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: 20px 0px;
+
+}
+ nav .logo{
+   font-weight: 900;
+    color: rgb(71, 25, 80);
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+nav ul li{
+ display: inline-block;
+ margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18;
+    font-weight: 700;
+    color: rgb(29, 29, 27);
+}
+.contant{
+   font-size: 20px;
+   color: rgb(44, 43, 41);
+   
+  
+}
+.image {
+    float: left; 
+    margin-right: 20px;
+    align-items:flex-end;
+}
+images{
+    vertical-align: middle;
+}
+figure {
+    display: inline-block; 
+    margin: 0; 
+    text-align: center;
+}
+.carton{
+    background-color:rgb(214, 186, 232)  ;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    
+   /* background-color: white; */
+}
+.sub-form{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    border-radius: 80px; 
+    box-shadow: 10px 7px 20px rgb(233, 117, 233);
+}
+h2{
+   margin: 1.5rem;
+    text-align: center;
+  
+}
+label{
+    padding-left: 16px;
+    opacity: 0.75;
+   
+}
+input{
+    display: flex; 
+    border-radius: 50px; 
+    border-style: none; 
+    outline: none;
+    margin-top: 8px; 
+    padding: 12px 24px ;
+    background-color: #EAEEED;
+}
+input:focus{
+    opacity: 0.7;
+    
+}
+button {
+    padding: 12px 48px ;  
+    border-radius: 50px;
+    color: white;
+    margin-top: 1px;
+    background-color: #1a1b27;
+    font-family: 600;
+    width: 100%;
+
+}
+ button:hover{
+    opacity: 0.8;
+}
+nav ul li a:hover{
+    color: rgb(156, 80, 255);
+}
+
